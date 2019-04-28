@@ -1,0 +1,27 @@
+{% extends "_layout.html" %}
+{% block title %}
+QBank
+{% endblock %}
+{% block header %}
+{% endblock %}
+{% block content %}
+{% with messages = get_flashed_messages() %}
+{% for message in messages %}
+<div class="alert alert-success" role="alert">{{message}}</div>
+{% endfor %}
+{% endwith %}
+<div class="mx-3 d-flex flex-column">
+    <div>
+        search bar here
+    </div>
+
+    <div>
+        <h1>Questions we've found....</h1>
+        <div>
+            Question text here
+            add button here
+        </div>
+    </div>
+
+</div>
+{% endblock %}

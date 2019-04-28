@@ -1,0 +1,1807 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_80xbWbZFgs4zu7P",
+        "SurveyName": "Coffee Incidence Check",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_9WuPJ5lvPzHa0OF",
+        "SurveyBrandID": "monash",
+        "DivisionID": null,
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_aabBGl5qATFSG7H",
+        "SurveyStatus": "Active",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2017-04-19 02:25:38",
+        "CreatorID": "UR_9WuPJ5lvPzHa0OF",
+        "LastModified": "2017-04-25 19:23:34",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "2017-04-19 02:26:02",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "0": {
+                    "Type": "Default",
+                    "Description": "Intro",
+                    "ID": "BL_0xH21Js73Wqf1yd",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID36"
+                        }
+                    ]
+                },
+                "1": {
+                    "Type": "Trash",
+                    "Description": "Trash \/ Unused Questions",
+                    "ID": "BL_cAbVIM7sgRbHKND",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID209"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID215"
+                        }
+                    ]
+                },
+                "2": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 1",
+                    "ID": "BL_6lelK4LW5U6M8hD",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID202"
+                        }
+                    ]
+                },
+                "3": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 2",
+                    "ID": "BL_83aiGBFD5CrENud",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID203"
+                        }
+                    ]
+                },
+                "4": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 3",
+                    "ID": "BL_81haozE9olycSFv",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID204"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID213"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID214"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID216"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID218"
+                        }
+                    ]
+                },
+                "6": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 5",
+                    "ID": "BL_24c1JHiAZ8mMLDT",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID217"
+                        }
+                    ]
+                },
+                "7": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 5",
+                    "ID": "BL_a908YKWbg9GgKKF",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID208"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID207"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID206"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID205"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID210"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID211"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID212"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "Root",
+                "FlowID": "FL_1",
+                "Flow": [
+                    {
+                        "Type": "EmbeddedData",
+                        "FlowID": "FL_2",
+                        "EmbeddedData": [
+                            {
+                                "Description": "r",
+                                "Type": "Recipient",
+                                "Field": "r",
+                                "VariableType": "Nominal"
+                            },
+                            {
+                                "Description": "m",
+                                "Type": "Recipient",
+                                "Field": "m",
+                                "VariableType": "Nominal"
+                            },
+                            {
+                                "Description": "cid",
+                                "Type": "Recipient",
+                                "Field": "cid",
+                                "VariableType": "Nominal"
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "EmbeddedData",
+                        "FlowID": "FL_6",
+                        "EmbeddedData": [
+                            {
+                                "Description": "State",
+                                "Type": "Recipient",
+                                "Field": "State",
+                                "VariableType": "Nominal"
+                            },
+                            {
+                                "Description": "Gender",
+                                "Type": "Recipient",
+                                "Field": "Gender",
+                                "VariableType": "Nominal"
+                            },
+                            {
+                                "Description": "SawSurvey",
+                                "Type": "Custom",
+                                "Field": "SawSurvey",
+                                "VariableType": "Nominal",
+                                "Value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Block",
+                        "ID": "BL_0xH21Js73Wqf1yd",
+                        "FlowID": "FL_3"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_24c1JHiAZ8mMLDT",
+                        "FlowID": "FL_25"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_6lelK4LW5U6M8hD",
+                        "FlowID": "FL_19"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_83aiGBFD5CrENud",
+                        "FlowID": "FL_20"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_81haozE9olycSFv",
+                        "FlowID": "FL_21"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_a908YKWbg9GgKKF",
+                        "FlowID": "FL_28"
+                    }
+                ],
+                "Properties": {
+                    "Count": 28
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "false",
+                "SaveAndContinue": "false",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": null,
+                "SurveyTermination": "DisplayMessage",
+                "Header": "<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.1.0\/jquery.min.js\"><\/script><script>\r\nvar remove = setInterval(function(){\r\n  if (document.getElementById(\"Plug\")) {\r\n    console.log(\"remove success\");\r\n    document.getElementById(\"Plug\").remove();\r\n    clearInterval(remove);\r\n  }\r\n}, 1)\r\nQualtrics.SurveyEngine.addOnload(function()\r\n{\r\n\tQualtrics.SurveyEngine.OnEndOfSurvey = function() {\r\n\t\tconsole.log(\"End of survey submit\");\r\n        console.log(this.getQuestionInfo())\r\n\t}\r\n\r\n});\r\n<\/script>",
+                "Footer": "<script>\r\ndocument.getElementById(\"Plug\").remove()\r\n<\/script>",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 week",
+                "ValidationMessage": null,
+                "PreviousButton": "Back",
+                "NextButton": "Next",
+                "SkinLibrary": "nyu",
+                "SkinType": "MQ",
+                "Skin": "nyu1",
+                "NewScoring": 1,
+                "libraryId": "",
+                "nextButtonMid": "",
+                "previousButtonMid": "",
+                "headerMid": "",
+                "footerMid": "",
+                "QuestionsPerPage": "1",
+                "PageTransition": "None",
+                "ExternalCSS": null,
+                "CustomStyles": {
+                    "errorStyles": {
+                        "selector": ".Skin .ValidationError",
+                        "styles": {
+                            "color": null,
+                            "backgroundColor": null,
+                            "borderColor": "transparent"
+                        }
+                    },
+                    "errorStylesBG": {
+                        "selector": ".Skin .HeaderValidationError, .Skin .HeaderValidationError li a",
+                        "styles": {
+                            "color": null,
+                            "backgroundColor": null
+                        }
+                    },
+                    "pageStyles": {
+                        "selector": "#SurveyEngineBody",
+                        "styles": {
+                            "backgroundColor": "rgb(0, 0, 0)"
+                        }
+                    },
+                    "textStyles": {
+                        "selector": ".SkinInner",
+                        "styles": {
+                            "fontFamily": "ms serif, new york, sans-serif",
+                            "fontSize": null,
+                            "fontWeight": null,
+                            "fontStyle": null,
+                            "textDecoration": null,
+                            "color": null
+                        }
+                    },
+                    "questionStyles": {
+                        "selector": ".Skin .QuestionText",
+                        "styles": {
+                            "fontFamily": null,
+                            "fontSize": null,
+                            "fontWeight": null,
+                            "fontStyle": null,
+                            "textDecoration": null,
+                            "color": null
+                        }
+                    },
+                    "choiceStyles": {
+                        "selector": ".Skin .horizontalbar th.ylabel, .Skin .Matrix table td, .Skin .Matrix table th, .Skin .Matrix table thead th, .Skin .Matrix table thead td, .Skin .PGR .DragAndDrop .Items label, .Skin .QuestionBody ul.ChoiceStructure, .Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Group h2, .Skin .PGR .DragAndDrop .Items ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .DD .QuestionBody table.ChoiceStructure, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div ul, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div h2, .Skin .SBS thead th, .Skin .SBS td, .Skin .SBS .Answers td, .Skin .SBS .Answers th, .SBS table.ChoiceStructure, .Skin .horizontalbar thead table.LabelDescriptions tr td, .Skin .horizontalbar thead tr td.NotApplicable, .QuestionBody th, .Skin .QuestionBody .MC .MAVR label, .Skin .QuestionBody .MC .SAVR label, .Skin .SBS thead th, .Skin .SBS td, .Skin .RO .DND ul li, .Skin .reg, .SkinInner .ChoiceStructure, .Skin thead, .Skin .GAP .ChoiceStructure thead th, .Skin .GAP .ChoiceStructure .c4, .Skin .GAP .ChoiceStructure th, .Skin .GAP .ChoiceStructure .WhyText, .SkinInner .ChoiceStructure .LightBG, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt       ",
+                        "styles": {
+                            "fontFamily": null,
+                            "fontSize": null,
+                            "fontWeight": null,
+                            "fontStyle": null,
+                            "textDecoration": null,
+                            "color": null
+                        }
+                    },
+                    "headerStyles": {
+                        "selector": ".Skin div#Header",
+                        "styles": {
+                            "color": null
+                        }
+                    },
+                    "footerStyles": {
+                        "selector": ".Skin #Footer",
+                        "styles": {
+                            "color": null
+                        }
+                    },
+                    "questionSeparatorStyles": {
+                        "selector": ".Skin .Separator",
+                        "styles": {
+                            "backgroundColor": null,
+                            "display": null
+                        }
+                    },
+                    "highlightStyles": {
+                        "selector": ".Skin .QuestionOuter.Highlight .Inner, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt",
+                        "styles": {
+                            "backgroundColor": null
+                        }
+                    },
+                    "highlightStylesAlt": {
+                        "selector": ".Skin .QuestionOuter.Highlight .Inner .ReadableAlt, .Skin .QuestionOuter.Highlight .Inner .LightBG",
+                        "styles": {
+                            "backgroundColor": null
+                        }
+                    },
+                    "textEntryStyles": {
+                        "selector": ".Skin select, .Skin .InputText",
+                        "styles": {
+                            "color": null
+                        }
+                    },
+                    "borderStyles": {
+                        "selector": ".Skin .CS .horizontalbar table.sliderGrid tr.xlabel th, .Skin .CS .horizontalbar .ylabel, .Skin .CS .horizontalbar table.sliderGrid tr td.value, .Skin .Slider .horizontalbar table.sliderGrid tr.xlabel th, .Skin .BorderColor, .Skin .DarkBorderColor, .Skin .Slider .horizontalbar table.sliderGrid tr td.value, .Skin thead, .Skin .GAP .ChoiceStructure thead th  ",
+                        "styles": {
+                            "borderColor": null
+                        }
+                    },
+                    "altRowStyles": {
+                        "selector": ".Skin .ReadableAlt, .Skin .LightBG",
+                        "styles": {
+                            "backgroundColor": null
+                        }
+                    },
+                    "customCSS": "\/* Place your CSS here *\/\n\n#SurveyEngineBody {\n    background: center center \/ cover no-repeat fixed !important;\n}\n.Skin #LogoContainer {\n\tdisplay: none !important;\n}\n.Skin #SkinContent {\n\tbackground: rgba(0,0,0,0) !important;\n}\n.Skin label.MultipleAnswer.q-checked, .Skin label.SingleAnswer.q-checked {\n    background: #3E8F00 !important;\n    border-color: #000000 !important;\n    color: #fff !important;\n}\n#Overlay {\n\tbackground: rgba(255,255,255,.2) !important;\n}\n.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {\n\tbackground-color: #3E8F00 !important;\n}\n.Skin .QuestionOuter.Highlight .Inner, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt {\n\t    background-color: rgba(255, 255, 255, .5) !important;\n}\n\n #Plug{display:none !important;}\n\n.Skin label.q-radio.q-checked  {\n\tbackground-color: #3E8F00 !important;\n}\n\n.Skin label.q-checkbox.q-checked {\n\tbackground-color: #3E8F00 !important;\n}\n\n.Skin label.q-checkbox, .Skin label.q-radio {\n\tborder-color: #3E8F00 !important;\n}\n.Skin .SS .horizontalbar .handle:hover, .Skin .horizontalbar .Slider .handle:hover{\n\tbackground-color: #3E8F00 !important;\n}\n.Skin .SB input, .Skin .SS .horizontalbar .handle, .Skin .SS .verticalbar .SSTrack .handle, .Skin .horizontalbar .BarContainer:hover .bar, .Skin .horizontalbar .Slider .handle, .Skin .horizontalbar .activated .bar{\nbackground-color: #3E8F00 !important;\n}"
+                },
+                "HighlightQuestions": "off",
+                "EOSMessage": "MS_0PrEuA6AKUonmIZ",
+                "ShowExportTags": "false",
+                "CollectGeoLocation": "false",
+                "SurveyTitle": "F&B | Vase Insights",
+                "SurveyMetaDescription": "F&B | Vase Insights",
+                "PasswordProtection": "No",
+                "AnonymizeResponse": "No",
+                "Password": "",
+                "RefererCheck": "No",
+                "RefererURL": "http:\/\/",
+                "EOSMessageLibrary": "UR_9WuPJ5lvPzHa0OF",
+                "EOSRedirectURL": "https:\/\/",
+                "EmailThankYou": "false",
+                "ThankYouEmailMessageLibrary": null,
+                "ThankYouEmailMessage": null,
+                "ValidateMessage": "false",
+                "ValidationMessageLibrary": null,
+                "InactiveSurvey": "DefaultMessage",
+                "InactiveMessageLibrary": "",
+                "InactiveMessage": "",
+                "ActiveResponseSet": null,
+                "AvailableLanguages": {
+                    "EN": []
+                },
+                "ProtectSelectionIds": true,
+                "PartialDataCloseAfter": "LastActivity"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": true,
+                "ID": "Survey Statistics"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "218",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID36",
+            "SecondaryAttribute": "\u00a0 What's your favourite food and drinks? \u00a0 Take 1\u00a0minute to help us understand your preferences..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "<div style=\"text-align: center;\"><img src=\"https:\/\/monash.az1.qualtrics.com\/CP\/Graphic.php?IM=IM_eakZp2XYQgFt7nL\" style=\"width: 64px; height: 64px;\"><br>\n&nbsp;<\/div>\n\n<div style=\"text-align: center;\"><b>What's your favourite food and drinks?<\/b><\/div><div style=\"text-align: center;\"><em>&nbsp;<\/em><\/div>\n\n<div style=\"text-align: center;\">Take 1&nbsp;minute to help us understand your preferences.<\/div>\n\n<div style=\"text-align: center;\"><em>&nbsp;<\/em><\/div>\n\n<div><em>&nbsp;<\/em><\/div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q1",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "\u00a0 What's your favourite food and drinks? \u00a0 Take 1\u00a0minute to help us understand your preferences....",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "QuestionID": "QID36",
+                "QuestionText_Unsafe": "<div style=\"text-align: center;\"><img src=\"https:\/\/monash.az1.qualtrics.com\/CP\/Graphic.php?IM=IM_eakZp2XYQgFt7nL\" style=\"width: 64px; height: 64px;\"><br>\n&nbsp;<\/div>\n\n<div style=\"text-align: center;\"><b>What's your favourite food and drinks?<\/b><\/div><div style=\"text-align: center;\"><em>&nbsp;<\/em><\/div>\n\n<div style=\"text-align: center;\">Take 1&nbsp;minute to help us understand your preferences.<\/div>\n\n<div style=\"text-align: center;\"><em>&nbsp;<\/em><\/div>\n\n<div><em>&nbsp;<\/em><\/div>"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "CJ",
+            "PrimaryAttribute": "CJ_9M16DlzaSWFFW05",
+            "SecondaryAttribute": "Conjoint",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "SelfExplicated",
+                "Description": "Conjoint",
+                "DisplayOption": "Importance",
+                "DataExportTag": "CJ1",
+                "QuestionType": "Conjoint",
+                "T_FeatureElemenation": "Is ANY FEATURE LEVEL SO UNACCEPTABLE that ALL OPTIONS CONTAINING THAT LEVEL WOULD BE REJECTED, NO MATTER HOW ATTRACTIVE THE OPTION ON ALL OTHER FEATURES? In other words, with this feature level present, the option just doesn't work for you... and would NEVER, EVER, EVER be considered. It would be better for you to go totally without this product or service than have one with this feature level.",
+                "T_MostandLeastPreferred": "Please select your most preferred and least preferred for each set shown below:",
+                "T_PreferenceMostandLeast": "Considering the concepts you've just seen, please indicate your preference for the following:",
+                "T_ImportancesConstSum": "In the previous questions, you rated the following as your most preferred. Please allocate 100 percentage points showing the relative importance of each:",
+                "T_UpgradeConstSum": "Assume you are upgrading...please allocate 100 percentage points showing the relative importance of each upgrade:",
+                "DisplayOneAtATime": false,
+                "Features": [],
+                "ID": "CJ_9M16DlzaSWFFW05"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "CJ",
+            "PrimaryAttribute": "CJ_emnpdkugksGmuvb",
+            "SecondaryAttribute": "Conjoint",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "SelfExplicated",
+                "Description": "Conjoint",
+                "DisplayOption": "Importance",
+                "DataExportTag": "CJ1",
+                "QuestionType": "Conjoint",
+                "T_FeatureElemenation": "Is ANY FEATURE LEVEL SO UNACCEPTABLE that ALL OPTIONS CONTAINING THAT LEVEL WOULD BE REJECTED, NO MATTER HOW ATTRACTIVE THE OPTION ON ALL OTHER FEATURES? In other words, with this feature level present, the option just doesn't work for you... and would NEVER, EVER, EVER be considered. It would be better for you to go totally without this product or service than have one with this feature level.",
+                "T_MostandLeastPreferred": "Please select your most preferred and least preferred for each set shown below:",
+                "T_PreferenceMostandLeast": "Considering the concepts you've just seen, please indicate your preference for the following:",
+                "T_ImportancesConstSum": "In the previous questions, you rated the following as your most preferred. Please allocate 100 percentage points showing the relative importance of each:",
+                "T_UpgradeConstSum": "Assume you are upgrading...please allocate 100 percentage points showing the relative importance of each upgrade:",
+                "DisplayOneAtATime": false,
+                "Features": [],
+                "ID": "CJ_emnpdkugksGmuvb"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_aabBGl5qATFSG7H",
+            "SecondaryAttribute": "Default Response Set",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID208",
+            "SecondaryAttribute": "I am a:",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "I am a:",
+                "DataExportTag": "Q10",
+                "QuestionType": "MC",
+                "Selector": "SAHR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "LabelPosition": "BELOW"
+                },
+                "QuestionDescription": "I am a:",
+                "Choices": {
+                    "1": {
+                        "Display": "<img src=\"https:\/\/monash.az1.qualtrics.com\/CP\/Graphic.php?IM=IM_735BH4GzyBqeh2R\" style=\"width: 64px; height: 64px;\" \/><br \/>\nMale"
+                    },
+                    "2": {
+                        "Display": "<img src=\"https:\/\/monash.az1.qualtrics.com\/CP\/Graphic.php?IM=IM_5oQclOpV480CbkN\" style=\"width: 64px; height: 64px;\" \/><br \/>\nFemale"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID208",
+                "QuestionText_Unsafe": "I am a:"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID215",
+            "SecondaryAttribute": "Please",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please",
+                "DataExportTag": "Q15",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Please",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Choice 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Choice 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Choice 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID215"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID213",
+            "SecondaryAttribute": "Please specify the other 3-in-1 regular coffee brands\u00a0that\u00a0you drink.",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please specify the <b>other 3-in-1 regular coffee brands<\/b>&nbsp;that&nbsp;you drink.",
+                "DefaultChoices": false,
+                "DataExportTag": "Q6",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 318,
+                    "InputHeight": 64
+                },
+                "QuestionDescription": "Please specify the other 3-in-1 regular coffee brands\u00a0that\u00a0you drink.",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID204",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID204\/SelectableChoice\/10",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID204",
+                            "LeftOperand": "q:\/\/QID204\/SelectableChoice\/10",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Which of the following 3-in-1 regular coffee&nbsp;do you drink? (NOT white coffee) &nbsp; (Choose all relev...<\/span> <span class=\"LeftOpDesc\">Others<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "QuestionID": "QID213",
+                "QuestionText_Unsafe": "Please specify the <b>other 3-in-1 regular coffee brands<\/b>&nbsp;that&nbsp;you drink."
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID216",
+            "SecondaryAttribute": "Please specify the other snacks you eat.",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please <b>specify <\/b>the <b>other snacks you eat<\/b>.",
+                "DefaultChoices": false,
+                "DataExportTag": "Q8",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 265,
+                    "InputHeight": 85
+                },
+                "QuestionDescription": "Please specify the other snacks you eat.",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID214",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID214\/SelectableChoice\/12",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID214",
+                            "LeftOperand": "q:\/\/QID214\/SelectableChoice\/12",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">What type of food do you eat?(Choose all relevant options)<\/span> <span class=\"LeftOpDesc\">Others<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "QuestionID": "QID216",
+                "QuestionText_Unsafe": "Please <b>specify <\/b>the <b>other snacks you eat<\/b>."
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID207",
+            "SecondaryAttribute": "Please specify your race.",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please <b>specify <\/b>your <b>race<\/b>.",
+                "DefaultChoices": false,
+                "DataExportTag": "Q11",
+                "QuestionID": "QID207",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 165,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "Please specify your race.",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID206",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID206\/SelectableChoice\/5",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID206",
+                            "LeftOperand": "q:\/\/QID206\/SelectableChoice\/5",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">What is your race?<\/span> <span class=\"LeftOpDesc\">Others<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "QuestionText_Unsafe": "Please <b>specify <\/b>your <b>race<\/b>."
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID205",
+            "SecondaryAttribute": "What is your age?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is your age?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q13",
+                "QuestionID": "QID205",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 115,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "What is your age?",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "ContentType",
+                        "ContentType": "ValidNumber",
+                        "ValidDateType": "DateWithFormat",
+                        "ValidPhoneType": "ValidUSPhone",
+                        "ValidZipType": "ValidUSZip",
+                        "ValidNumber": {
+                            "Max": "99"
+                        }
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "QuestionText_Unsafe": "What is your age?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID212",
+            "SecondaryAttribute": "What is your monthly household income?\u00a0 (Household income refers to the sum of the income of ever..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "<p>What is your monthly household income?&nbsp;<\/p><p><i><br><\/i><\/p><p><i>(Household income refers to the sum of the income of everyone living in your house.)<\/i><\/p>",
+                "DataExportTag": "Q16",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What is your monthly household income?\u00a0 (Household income refers to the sum of the income of ever...",
+                "Choices": {
+                    "4": {
+                        "Display": "Below RM500"
+                    },
+                    "5": {
+                        "Display": "RM500 - RM999 "
+                    },
+                    "6": {
+                        "Display": "RM1,000 - RM1,499 "
+                    },
+                    "7": {
+                        "Display": "RM1,500 - RM1,999 "
+                    },
+                    "8": {
+                        "Display": "RM2,000 - RM2,499 "
+                    },
+                    "9": {
+                        "Display": "RM2,500 - RM2,999 "
+                    },
+                    "10": {
+                        "Display": "RM3,000 - RM3,499 "
+                    },
+                    "11": {
+                        "Display": "RM3,500 - RM3,999 "
+                    },
+                    "12": {
+                        "Display": "RM4,000 - RM4,499 "
+                    },
+                    "13": {
+                        "Display": "RM4,500 - RM4,999 "
+                    },
+                    "14": {
+                        "Display": "RM5,000 - RM5,999 "
+                    },
+                    "15": {
+                        "Display": "RM6,000 - RM6,999 "
+                    },
+                    "16": {
+                        "Display": "RM7,000 - RM7,999 "
+                    },
+                    "17": {
+                        "Display": "RM8,000 - RM8,999"
+                    },
+                    "18": {
+                        "Display": "RM9,000 - RM9,999 "
+                    },
+                    "19": {
+                        "Display": "RM10,000 - RM14,999 "
+                    },
+                    "20": {
+                        "Display": "RM15,000 or above"
+                    }
+                },
+                "ChoiceOrder": [
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID212",
+                "QuestionText_Unsafe": "<p>What is your monthly household income?&nbsp;<\/p><p><i><br><\/i><\/p><p><i>(Household income refers to the sum of the income of everyone living in your house.)<\/i><\/p>"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID211",
+            "SecondaryAttribute": "What is your monthly personal income?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is your monthly personal income?",
+                "DataExportTag": "Q15",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What is your monthly personal income?",
+                "Choices": {
+                    "4": {
+                        "Display": "Below RM500"
+                    },
+                    "5": {
+                        "Display": "RM500 - RM999 "
+                    },
+                    "6": {
+                        "Display": "RM1,000 - RM1,499 "
+                    },
+                    "7": {
+                        "Display": "RM1,500 - RM1,999 "
+                    },
+                    "8": {
+                        "Display": "RM2,000 - RM2,499 "
+                    },
+                    "9": {
+                        "Display": "RM2,500 - RM2,999 "
+                    },
+                    "10": {
+                        "Display": "RM3,000 - RM3,499 "
+                    },
+                    "11": {
+                        "Display": "RM3,500 - RM3,999 "
+                    },
+                    "12": {
+                        "Display": "RM4,000 - RM4,499 "
+                    },
+                    "13": {
+                        "Display": "RM4,500 - RM4,999 "
+                    },
+                    "14": {
+                        "Display": "RM5,000 - RM5,999 "
+                    },
+                    "15": {
+                        "Display": "RM6,000 - RM6,999 "
+                    },
+                    "16": {
+                        "Display": "RM7,000 - RM7,999 "
+                    },
+                    "17": {
+                        "Display": "RM8,000 - RM8,999"
+                    },
+                    "18": {
+                        "Display": "RM9,000 - RM9,999 "
+                    },
+                    "19": {
+                        "Display": "RM10,000 - RM14,999 "
+                    },
+                    "20": {
+                        "Display": "RM15,000 or above"
+                    }
+                },
+                "ChoiceOrder": [
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID211",
+                "QuestionText_Unsafe": "What is your monthly personal income?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID209",
+            "SecondaryAttribute": "What is your occupation?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is your occupation?",
+                "DataExportTag": "Q14",
+                "QuestionType": "MC",
+                "Selector": "SACOL",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "NumColumns": 2
+                },
+                "QuestionDescription": "What is your occupation?",
+                "Choices": {
+                    "4": {
+                        "Display": "Self Employed"
+                    },
+                    "5": {
+                        "Display": "Professional (e.g. Lawyer, doctor, engineer, etc.)"
+                    },
+                    "6": {
+                        "Display": "Management \/ Supervisor"
+                    },
+                    "7": {
+                        "Display": "Skilled Technician\/Programmer"
+                    },
+                    "8": {
+                        "Display": "Educator (e.g. teacher, lecturer, professor)"
+                    },
+                    "9": {
+                        "Display": "Admin Clerk"
+                    },
+                    "10": {
+                        "Display": "Skilled manual worker"
+                    },
+                    "11": {
+                        "Display": "Unskilled manual worker"
+                    },
+                    "12": {
+                        "Display": "Student"
+                    },
+                    "13": {
+                        "Display": "Homemaker"
+                    },
+                    "14": {
+                        "Display": "Retired"
+                    },
+                    "15": {
+                        "Display": "Unemployed"
+                    },
+                    "16": {
+                        "Display": "Construction Worker"
+                    },
+                    "17": {
+                        "Display": "Restaurant Worker"
+                    },
+                    "18": {
+                        "Display": "Security Guard"
+                    },
+                    "19": {
+                        "Display": "General Services"
+                    },
+                    "20": {
+                        "Display": "Maid"
+                    },
+                    "21": {
+                        "Display": "Plantation Workers"
+                    },
+                    "22": {
+                        "Display": "Others"
+                    }
+                },
+                "ChoiceOrder": [
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "21",
+                    "22"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID209",
+                "QuestionText_Unsafe": "What is your occupation?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID206",
+            "SecondaryAttribute": "What is your race?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is your race?",
+                "DataExportTag": "Q12",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What is your race?",
+                "Choices": {
+                    "1": {
+                        "Display": "Malay"
+                    },
+                    "2": {
+                        "Display": "Chinese"
+                    },
+                    "3": {
+                        "Display": "Indian"
+                    },
+                    "4": {
+                        "Display": "Bumiputra - Sabah & Sarawak"
+                    },
+                    "5": {
+                        "Display": "Others"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID206",
+                "QuestionText_Unsafe": "What is your race?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID217",
+            "SecondaryAttribute": "What type of drinks do you consume? (Choose all relevant options)",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What type of <b>drinks <\/b>do <b>you consume<\/b>?<div><br><\/div><div><i>(Choose all relevant options)<\/i><\/div>",
+                "DataExportTag": "Q2",
+                "QuestionType": "MC",
+                "Selector": "MAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What type of drinks do you consume? (Choose all relevant options)",
+                "Choices": {
+                    "1": {
+                        "Display": "Alcohol"
+                    },
+                    "2": {
+                        "Display": "Coffee"
+                    },
+                    "3": {
+                        "Display": "Soft\/Fizzy drinks"
+                    },
+                    "4": {
+                        "Display": "Juice"
+                    },
+                    "5": {
+                        "Display": "Tea"
+                    },
+                    "7": {
+                        "Display": "Others"
+                    },
+                    "8": {
+                        "Display": "Milk"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "8",
+                    "7"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID217",
+                "Randomization": {
+                    "Type": "Advanced",
+                    "Advanced": {
+                        "FixedOrder": [
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "7"
+                        ],
+                        "RandomizeAll": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "8"
+                        ],
+                        "RandomSubSet": [],
+                        "Undisplayed": [],
+                        "TotalRandSubset": 0
+                    },
+                    "EvenPresentation": false,
+                    "TotalRandSubset": ""
+                },
+                "QuestionText_Unsafe": "What type of <b>drinks <\/b>do <b>you consume<\/b>?<div><br><\/div><div><i>(Choose all relevant options)<\/i><\/div>",
+                "RecodeValues": {
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5",
+                    "7": "7",
+                    "8": "6"
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID214",
+            "SecondaryAttribute": "What type of food do you eat? (Choose all relevant options)",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What type of<strong> food do you eat<\/strong>?<div><br><\/div><div><i>(Choose all relevant options)<\/i><\/div>",
+                "DataExportTag": "Q7",
+                "QuestionType": "MC",
+                "Selector": "MACOL",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "NumColumns": 2
+                },
+                "QuestionDescription": "What type of food do you eat? (Choose all relevant options)",
+                "Choices": {
+                    "1": {
+                        "Display": "Chips (e.g Potato chips, Twisties, etc)"
+                    },
+                    "2": {
+                        "Display": "Biscuits"
+                    },
+                    "3": {
+                        "Display": "Chocolate"
+                    },
+                    "5": {
+                        "Display": "Popcorn"
+                    },
+                    "6": {
+                        "Display": "Cakes"
+                    },
+                    "7": {
+                        "Display": "Bread"
+                    },
+                    "9": {
+                        "Display": "Sweets"
+                    },
+                    "12": {
+                        "Display": "Others"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "6",
+                    "7",
+                    "9",
+                    "12"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID214",
+                "QuestionText_Unsafe": "What type of<strong> food do you eat<\/strong>?<div><br><\/div><div><i>(Choose all relevant options)<\/i><\/div>",
+                "Randomization": {
+                    "Type": "Advanced",
+                    "Advanced": {
+                        "FixedOrder": [
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "12"
+                        ],
+                        "RandomizeAll": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10",
+                            "11"
+                        ],
+                        "RandomSubSet": [],
+                        "Undisplayed": [],
+                        "TotalRandSubset": 0
+                    },
+                    "EvenPresentation": false,
+                    "TotalRandSubset": ""
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID202",
+            "SecondaryAttribute": "When was the last time you drank coffee?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "When was <b>the last time you drank coffee<\/b>?",
+                "DataExportTag": "Q3",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "When was the last time you drank coffee?",
+                "Choices": {
+                    "1": {
+                        "Display": "This week"
+                    },
+                    "2": {
+                        "Display": "Past 1 - 4 weeks"
+                    },
+                    "3": {
+                        "Display": "1 - 3 months ago"
+                    },
+                    "4": {
+                        "Display": "4 - 5 months ago"
+                    },
+                    "5": {
+                        "Display": "More than 5 months ago"
+                    },
+                    "6": {
+                        "Display": "I don't remember"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID202",
+                "QuestionText_Unsafe": "When was <b>the last time you drank coffee<\/b>?",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID217",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID217\/SelectableChoice\/2",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID217",
+                            "LeftOperand": "q:\/\/QID217\/SelectableChoice\/2",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">What type of drinks do you consume? (Choose all relevant options)<\/span> <span class=\"LeftOpDesc\">Coffee<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID218",
+            "SecondaryAttribute": "When was the last time you eat biscuits?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "When was <b>the last time you eat biscuits<\/b>?",
+                "DataExportTag": "Q9",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "When was the last time you eat biscuits?",
+                "Choices": {
+                    "1": {
+                        "Display": "This week"
+                    },
+                    "2": {
+                        "Display": "Past 1 - 4 weeks"
+                    },
+                    "3": {
+                        "Display": "1 - 3 months ago"
+                    },
+                    "4": {
+                        "Display": "4 - 5 months ago"
+                    },
+                    "5": {
+                        "Display": "More than 5 months ago"
+                    },
+                    "6": {
+                        "Display": "I don't remember"
+                    }
+                },
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID214",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID214\/SelectableChoice\/2",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID214",
+                            "LeftOperand": "q:\/\/QID214\/SelectableChoice\/2",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">What type of food do you eat?(Choose all relevant options)<\/span> <span class=\"LeftOpDesc\">Biscuits<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID218",
+                "QuestionText_Unsafe": "When was <b>the last time you eat biscuits<\/b>?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID210",
+            "SecondaryAttribute": "Where are you currently staying?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Where are you currently staying?",
+                "DataExportTag": "Q14",
+                "QuestionType": "MC",
+                "Selector": "DL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Where are you currently staying?",
+                "Choices": {
+                    "4": {
+                        "Display": "Perlis - Northern"
+                    },
+                    "5": {
+                        "Display": "Kedah - Northern"
+                    },
+                    "6": {
+                        "Display": "Penang - Northern"
+                    },
+                    "7": {
+                        "Display": "Perak - Northern"
+                    },
+                    "8": {
+                        "Display": "Selangor - Central "
+                    },
+                    "9": {
+                        "Display": "Wilayah Persekutuan - Central "
+                    },
+                    "10": {
+                        "Display": "Melaka - Southern "
+                    },
+                    "11": {
+                        "Display": "Negeri Sembilan - Southern "
+                    },
+                    "12": {
+                        "Display": "Johor - Southern "
+                    },
+                    "13": {
+                        "Display": "Pahang - Eastern "
+                    },
+                    "14": {
+                        "Display": "Terengganu - Eastern "
+                    },
+                    "15": {
+                        "Display": "Kelantan - Eastern "
+                    },
+                    "16": {
+                        "Display": "Sabah - East Malaysia"
+                    },
+                    "17": {
+                        "Display": "Sarawak - East Malaysia"
+                    }
+                },
+                "ChoiceOrder": [
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID210",
+                "QuestionText_Unsafe": "Where are you currently staying?"
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID204",
+            "SecondaryAttribute": "Which of the following 3-in-1 regular coffee\u00a0do you drink? (NOT white coffee) \u00a0 (Choose all relev.",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Which of the following <b>3-in-1 regular coffee<\/b>&nbsp;<b>do you drink<\/b>? (NOT white coffee)\n<div>&nbsp;<\/div>\n\n<div><i>(Choose all relevant options)<\/i><\/div>",
+                "DataExportTag": "Q5",
+                "QuestionType": "MC",
+                "Selector": "MACOL",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "NumColumns": 2
+                },
+                "QuestionDescription": "Which of the following 3-in-1 regular coffee\u00a0do you drink? (NOT white coffee) \u00a0 (Choose all relev...",
+                "Choices": {
+                    "1": {
+                        "Display": "Nescafe"
+                    },
+                    "2": {
+                        "Display": "Kopiko"
+                    },
+                    "3": {
+                        "Display": "L.A. Coffee"
+                    },
+                    "4": {
+                        "Display": "INDOCAFE Coffeemix"
+                    },
+                    "5": {
+                        "Display": "Aik Cheong"
+                    },
+                    "6": {
+                        "Display": "Alicafe"
+                    },
+                    "7": {
+                        "Display": "Sin Sing Coffee Mix"
+                    },
+                    "8": {
+                        "Display": "City Cafe COFFEEMIX"
+                    },
+                    "9": {
+                        "Display": "Super Coffee"
+                    },
+                    "10": {
+                        "Display": "Others"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID204",
+                "Randomization": {
+                    "Type": "Advanced",
+                    "Advanced": {
+                        "FixedOrder": [
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "10"
+                        ],
+                        "RandomizeAll": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9"
+                        ],
+                        "RandomSubSet": [],
+                        "Undisplayed": [],
+                        "TotalRandSubset": 0
+                    },
+                    "EvenPresentation": false,
+                    "TotalRandSubset": ""
+                },
+                "QuestionText_Unsafe": "Which of the following <b>3-in-1 regular coffee<\/b>&nbsp;<b>do you drink<\/b>? (NOT white coffee)\n<div>&nbsp;<\/div>\n\n<div><i>(Choose all relevant options)<\/i><\/div>",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID203",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID203\/SelectableChoice\/1",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID203",
+                            "LeftOperand": "q:\/\/QID203\/SelectableChoice\/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Which type of coffee do you drink?<\/span> <span class=\"LeftOpDesc\">Regular coffee<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+                        },
+                        "1": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID203",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q:\/\/QID203\/SelectableChoice\/5",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID203",
+                            "LeftOperand": "q:\/\/QID203\/SelectableChoice\/5",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Which type of coffee do you drink?<\/span> <span class=\"LeftOpDesc\">Both regular coffee and white coffee<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+                            "Conjuction": "Or"
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_80xbWbZFgs4zu7P",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID203",
+            "SecondaryAttribute": "Which type of coffee do you drink?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Which type of<b> coffee <\/b>do <b>you drink<\/b>?",
+                "DataExportTag": "Q4",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "LabelPosition": "BELOW"
+                },
+                "QuestionDescription": "Which type of coffee do you drink?",
+                "Choices": {
+                    "1": {
+                        "Display": "Regular coffee"
+                    },
+                    "2": {
+                        "Display": "White coffee"
+                    },
+                    "4": {
+                        "Display": "None of the above",
+                        "ExclusiveAnswer": true
+                    },
+                    "5": {
+                        "Display": "Both regular coffee and white coffee"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "5",
+                    "4"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "QuestionID": "QID203",
+                "Randomization": {
+                    "Type": "Advanced",
+                    "Advanced": {
+                        "FixedOrder": [
+                            "{~Randomized~}",
+                            "{~Randomized~}",
+                            "5",
+                            "4"
+                        ],
+                        "RandomizeAll": [
+                            "1",
+                            "2"
+                        ],
+                        "RandomSubSet": [],
+                        "Undisplayed": [],
+                        "TotalRandSubset": 0
+                    },
+                    "EvenPresentation": false,
+                    "TotalRandSubset": ""
+                },
+                "QuestionText_Unsafe": "Which type of<b> coffee <\/b>do <b>you drink<\/b>?"
+            }
+        }
+    ]
+}

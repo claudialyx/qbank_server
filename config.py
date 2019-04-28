@@ -7,6 +7,7 @@ class Config(object):
     CSRF_ENABLED = True
     SECRET_KEY = os.environ.get(
         'SECRET_KEY') or os.urandom(32)
+    UPLOAD_FOLDER = 'C:\\Users\\User\\Desktop\\Project\\qbank_interview\\qbank_server'
 
 
 class ProductionConfig(Config):
@@ -24,6 +25,7 @@ class DevelopmentConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
     ASSETS_DEBUG = False
+
 
 class TestingConfig(Config):
     TESTING = True
