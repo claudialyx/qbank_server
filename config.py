@@ -7,7 +7,8 @@ class Config(object):
     CSRF_ENABLED = True
     SECRET_KEY = os.environ.get(
         'SECRET_KEY') or os.urandom(32)
-    UPLOAD_FOLDER = 'C:\\Users\\User\\Desktop\\Project\\qbank_interview\\qbank_server'
+    # UPLOAD_FOLDER = 'C:\\Users\\claudia\\Desktop\\Projects\\qbank_server'
+    UPLOAD_FOLDER = '/Users/claudia/Desktop/Projects/qbank_server'
 
 
 class ProductionConfig(Config):

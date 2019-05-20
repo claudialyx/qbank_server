@@ -29,15 +29,13 @@ def search():
 @users_blueprint.route('/upload_file', methods=['GET', 'POST'])
 def upload_file():
     if request.method == "POST":
-        # if 'qsf_file' not in request.files:
-        #     flash('No file part')
+
+        # file = request.files['qsf_file']
+        # if file.filename == '':
+        #     flash('No file selected for uploading')
         #     return redirect(url_for('users.new'))
-        
-        file = request.files['qsf_file']
-        if file.filename == '':
-            flash('No file selected for uploading')
-            return redirect(url_for('users.new'))
-            
+
+        #  if file exist and allowed extension is qsf: 
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
@@ -52,15 +50,12 @@ def upload_file():
                         question_type = elem["Payload"]["QuestionType"]
                         q_text = elem["Payload"]["QuestionText"]
                         question_text = re.sub(r"<[a-zA-Z\/][^>]*>", "", q_text)
-                        # q_text2 = re.sub(r"")
                         breakpoint()
-                        # question_answers = {}
                         if "Choices" in elem["Payload"]:
                             answers = elem["Payload"]["Choices"]
                             for answer in answers:
                                 for ans in answer:
                                     for display in ans:
-                                        #cannot append answer, need to create a new model for choices
                                         new_qna = QuestionAnswer(question_id=question_id, choices=display)
                         new_question = Question(survey_id=survey_id, question_id=question_id, question_type=question_type,question_text=question_text)
                         if new_question.save():
