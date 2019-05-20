@@ -137,9 +137,22 @@ def read():
 # get only the search result
 @users_api_blueprint.route('/search/<search_term>', methods=['GET'])
 def search(search_term):
-	results = Question.select().where(Question.search_content.match(search_term))
-	searched_data = [{"question_id": result.question_id,
-					  "question_type": result.question_type,
-					  "question_text": result.question_text} for result in results]
-	return jsonify(searched_data)
+	question_results = Question.select().where(Question.search_content.match(search_term))
+	searched_data =[]
+	for qresult in question_results:
+		question_data = {"question_id": qresult.question_id,
+					  "question_type": qresult.question_type,
+					  "question_text": qresult.question_text}
+		answer_results = QuestionAnswer.select().join(Question, on =(QuestionAnswer.question_id == Question.question_id)).where(QuestionAnswer.question_id==qresult.question_id)
+		ans_list = []
+		# store the answers for a particular question in an array
+		for aresult in answer_results:
+			ans= {"question_id":aresult.question_id,
+			"choices_index": aresult.choices_index,
+			"choices_text": aresult.choices_text}
+			ans_list.append(ans)
+		question_data.update({"answer":ans_list})
+		searched_data.append(question_data)
+	return json.dumps(searched_data)
+	# return jsonify(searched_data)
  
