@@ -13,7 +13,7 @@
 - [ ] Progress bar for uploading qsf file
 - [ ] A div at the bottom of the screen to display questions selected to reuse for next survey.
 
-Back end repo located at: https://github.com/claudialyx/qbank_server
+Front end repo located at: https://github.com/claudialyx/qbank_frontend
 
 -----
 
