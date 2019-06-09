@@ -1,4 +1,23 @@
-# Flask Nextagram Template
+### User stories:
+- A qsf (Qualtrics Survey File) contains survey data such as survey question types, curated questions & answers and etc.
+- User can upload qsf documents to store in database.
+- User can then perform a search to get survey questions that were previously curated to reuse for future surveys.
+
+#### Main task:
+- [x] Upload qsf.file to back end
+- [x] Connect to back end API
+- [x] Full text search function using Peewee ORM
+
+
+#### Extended functionality to be built (to be done during free time):
+- [ ] Progress bar for uploading qsf file
+- [ ] A div at the bottom of the screen to display questions selected to reuse for next survey.
+
+Back end repo located at: https://github.com/claudialyx/qbank_server
+
+-----
+
+# Flask Template
 
 version 0.0.1 (alpha)
 
